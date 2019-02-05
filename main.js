@@ -7,20 +7,23 @@ const result = brojevi.filter (niz => regex.test(niz));
 
 console.log(Math.min(...result));
 
+let samoBrojevi = niz.filter(n => !Number.isNaN(n));
+
+let jednoznamenkastiBrojevi = niz.filter(n => n.toString().match(regex).length > 0);
 
 /*
-if (regex.test(niz)){
+if (regex.test(niz))c
 console.log(Math.min(...niz));
 }
-else if (regexJedan.test(niz)){
+else if (regexJedan.test(niz))
   console.log("false");
 }*/
 
 
 
 /*
-const result = brojevi.filter (niz =>{
-  if (regex.test(niz)){
+const result = brojevi.filter (niz =>ç
+  if (regex.test(niz))c
   console.log(Math.min(...niz));
   }
   else {
